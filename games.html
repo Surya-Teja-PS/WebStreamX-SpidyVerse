@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spiderman Games</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="spiderman-bg">
+  <nav class="navbar">
+    <div class="logo">🕷️ Spiderman Universe</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="games.html" class="active">Games</a></li>
+      <li><a href="stories.html">Stories</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <header class="hero">
+    <img src="https://static.wikia.nocookie.net/marveldatabase/images/6/6e/Spider-Man_PS4_Cover.jpg" alt="Spiderman Game" class="hero-img">
+    <div class="hero-text">
+      <h1>Spiderman Games</h1>
+      <p>Experience Spiderman in the world of video games!</p>
+    </div>
+  </header>
+  <main class="main-content">
+    <section>
+      <h2>Major Spiderman Games</h2>
+      <div class="games-grid">
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Spider-Man_%282018_video_game%29.jpg" alt="Marvel's Spider-Man (2018)">
+          <h3>Marvel's Spider-Man (2018)</h3>
+          <p><b>Platform:</b> PS4, PS5, PC<br><b>Plot:</b> An original story with Peter Parker facing Mister Negative and the Sinister Six.</p>
+        </div>
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Spider-Man_Miles_Morales_cover.jpg" alt="Spider-Man: Miles Morales (2020)">
+          <h3>Spider-Man: Miles Morales (2020)</h3>
+          <p><b>Platform:</b> PS4, PS5, PC<br><b>Plot:</b> Miles Morales takes up the mantle of Spiderman in snowy New York.</p>
+        </div>
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/Spider-Man_2_PS5_cover.jpg" alt="Marvel's Spider-Man 2 (2023)">
+          <h3>Marvel's Spider-Man 2 (2023)</h3>
+          <p><b>Platform:</b> PS5<br><b>Plot:</b> Peter Parker and Miles Morales team up to face Venom and Kraven the Hunter.</p>
+        </div>
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Spider-Man_Shattered_Dimensions_cover.jpg" alt="Spider-Man: Shattered Dimensions (2010)">
+          <h3>Spider-Man: Shattered Dimensions (2010)</h3>
+          <p><b>Platform:</b> PS3, Xbox 360, PC, Wii<br><b>Plot:</b> Four Spidermen from different universes unite to save reality.</p>
+        </div>
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/7/7d/Spider-Man_2_%282004_video_game%29_cover.jpg" alt="Spider-Man 2 (2004)">
+          <h3>Spider-Man 2 (2004)</h3>
+          <p><b>Platform:</b> PS2, Xbox, GameCube, PC<br><b>Plot:</b> Based on the movie, featuring open-world web-swinging in NYC.</p>
+        </div>
+        <div class="game-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Ultimate_Spider-Man_cover.jpg" alt="Ultimate Spider-Man (2005)">
+          <h3>Ultimate Spider-Man (2005)</h3>
+          <p><b>Platform:</b> PS2, Xbox, GameCube, PC<br><b>Plot:</b> Comic-inspired adventure with playable Venom.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Spiderman Universe. Not affiliated with Marvel. Images & data for educational use only.</p>
+  </footer>
+</body>
+</html>
+<style>
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.game-card {
+  background: #0a3d62;
+  border: 2px solid #e62429;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.game-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.7rem;
+  border: 2px solid #e62429;
+}
+.game-card:hover {
+  transform: translateY(-6px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(230,36,41,0.18);
+  background: #e62429;
+  color: #fff;
+}
+</style>

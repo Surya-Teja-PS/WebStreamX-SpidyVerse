@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spiderman Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="spiderman-bg">
+  <nav class="navbar">
+    <div class="logo">🕷️ Spiderman Universe</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="stories.html">Stories</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+  <header class="hero">
+    <img src="https://static.wikia.nocookie.net/marveldatabase/images/6/6e/Spider-Man_PS4_Cover.jpg" alt="Spiderman Gallery" class="hero-img">
+    <div class="hero-text">
+      <h1>Spiderman Gallery</h1>
+      <p>A visual journey through Spiderman's universe.</p>
+    </div>
+  </header>
+  <main class="main-content">
+    <section>
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Spiderman50.jpg" alt="Classic Spiderman Comic">
+        <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/Spider-Man_%282002_film%29_poster.jpg" alt="Spider-Man 2002 Movie">
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/7e/Spider-Man_%282018_video_game%29.jpg" alt="Spider-Man PS4 Game">
+        <img src="https://static.wikia.nocookie.net/marveldatabase/images/2/2c/Amazing_Spider-Man_Vol_1_1.jpg" alt="Amazing Fantasy #15">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/dc/Spider-Man_Into_the_Spider-Verse_poster.png" alt="Into the Spider-Verse">
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/00/Spider-Man_No_Way_Home_poster.jpg" alt="No Way Home">
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/02/The_Amazing_Spider-Man_poster.jpg" alt="The Amazing Spider-Man">
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Ultimate_Spider-Man_cover.jpg" alt="Ultimate Spider-Man Game">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/The_Amazing_Spider-Man_2_poster.jpg" alt="The Amazing Spider-Man 2">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Spiderman Universe. Not affiliated with Marvel. Images & data for educational use only.</p>
+  </footer>
+</body>
+</html>
+<style>
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 12px;
+  border: 3px solid #e62429;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: #fff;
+}
+.gallery-grid img:hover {
+  transform: scale(1.07) rotate(-2deg);
+  box-shadow: 0 6px 24px rgba(230,36,41,0.18);
+  border-color: #0a3d62;
+}
+</style>
